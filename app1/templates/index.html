@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Feel Smile
+{%endblock%}
+{% block content %}
+<h1 class="text-center text-white mt-4">Welcome to chai django project </h1>
+<a class="btn btn-success" href="{% url 'tweet_list' %}">Go to tweets</a><br>
+<img src="static/women.jpg" alt="Your Image">
+
+{% endblock %}
